@@ -19,10 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4982412B-9108-4388-8CFC-DD966383E16C}</ProjectGuid>
-    <RootNamespace>My130warmup</RootNamespace>
+    <ProjectGuid>{67FA9CD1-81BF-486E-BA3F-DA86DE401FCC}</ProjectGuid>
+    <RootNamespace>executeorder__</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>1.31warmup</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
