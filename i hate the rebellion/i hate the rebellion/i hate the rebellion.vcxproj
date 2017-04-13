@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9E88531F-863F-4997-8474-BE765D440EB6}</ProjectGuid>
-    <RootNamespace>screeeeeeeeeeeeeeeeee</RootNamespace>
+    <ProjectGuid>{589C37BE-0836-4C72-90B9-0B5D71AF1A34}</ProjectGuid>
+    <RootNamespace>ihatetherebellion</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -114,6 +114,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Source1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
