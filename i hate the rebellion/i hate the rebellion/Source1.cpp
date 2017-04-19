@@ -3,7 +3,6 @@ using namespace std;
 int main() {
 	char input;
 	//before the fun stuff
-	cout << "you wake up in the empty living quarters" << endl;
 	cin >> input;
 	cout << "(by the way,type the letters e.w.n.s to go to certain directions)." << endl;
 	char input;
@@ -11,32 +10,64 @@ int main() {
 	while (input != 'q') {
 		switch (room)
 		{
-		case 1: room;
-
+		case 1:
+			cout << "you're in the living quarters. you can go n, e, w, s and x to examine the area" << endl;
 			cin >> input;
 			if (input == 'w')
-				cout << "you go west,thus arriving at a bed but you aren't tired. what are you even doing?" << endl;
+				room = 20;
 			else if (input == 'e')
-				cout << "going east,you appear to have walked to a locked door with a terminal saying accsess denied"<< endl;
+				room = 7;
 			else if (input == 's')
-				cout << "you proceed to go south now,thus arriving at a bed but you aren't tired. what are you even doing?" << endl;
+				room = 14;
 			else if (input == 'n')
-				cout << "you go north,passing through the  large metal door as it flungs open once you had gotten close. well atleast it didn't kill you"<<endl;
-			room = 2;
+				room = 2;
+			else if (input == 'x')
+				cout <<""<< endl;
+				break;
+			
 
-			//                            /|\                            |
-			//here's the good ol' room one | and room two is down here	\|/
+			//                            /|\                              |
+			//here's the good ol' room one | and room two is down here    \|/
 
 
-			break;
+			
 		case 2:
+			cout << "you're in a hallway. you can go n, e, w, s" << endl;
+			cin >> input;
 			if (input == 'w')
-				cout << "you go west again but you appear to hit your head against the wall of the hall way. good going." << endl;
+				room = 15;
 			else if (input == 'e')
-				cout << "you go east,re-entering the empty living quarters." << endl;
+				room = 5;
+			else if (input == 's')
+				room = 1;
 			else if (input == 'n')
-				cout << "you proceed to go north,entering a long hall wayy that appears to lead into the north again,the east eventually ending too a elevator and more to the west leading to a even longer hall." << endl;
-			else if(input=='s')
+				room = 3;
+			cout << "you enter the turbo laser batteries room,looks likes the cannons are unmanned at the moment. " << endl;
+			break;
+		case 3:
+			cout << "you're in the room with the rightside turbo lasers. you can go n, e,  s" << endl;
+			cin >> input;
 
-	}
-}
+			if (input == 'e')
+				room = 6;
+			else if (input == 's')
+				room = 2;
+			else if (input == 'n')
+						room = 4;
+			break;
+			cout << "you are in the ion cannon batteries room. you can only go s" << endl;
+			 if (input == 's')
+				room = 3;
+		case 4:
+			cout << "you're in a hallway. you can go n, e, w, s" << endl;
+			cin >> input;
+			if (input == 'w')
+				room = 20;
+			else if (input == 'e')
+				room =7 ;
+			else if (input == 'n')
+				room = 6;
+			
+		}//end switch
+	}//end of game loop
+}//end main
