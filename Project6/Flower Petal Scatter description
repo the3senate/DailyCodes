@@ -1,0 +1,5 @@
+The Flower Petal Scatter beam is a defensive beam used for accurate target destruction, such as missiles or large asteroids.  The equations
+for the beam are ship_x + t * 2 + 8 and ship_y + t * 2 * sin(4*t) + 16.  In both equations, t * 2 increases the wave's amplitude and
+period over time, giving it useful side-defense lasers.  The ship_x, ship_y, +8, and +16 alter their vertical and horizontal shift,
+causing the beam to fire close to the back of the ship, allowing the beam to defend from the side instead of just the front.  The sin(4*t) 
+gives it a unique firing pattern, causing what appears to be beams that intersect at certain points in a flower-petal pattern.
