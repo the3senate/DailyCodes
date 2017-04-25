@@ -1,0 +1,2 @@
+In the image titled "Double Helix Cannon", the weapon in question is the read beam.  Its purpose is to fire on a single target for
+destruction or disruption.  The beam's equations are ship_x + t * 5 + 16 and ship_y + t * 0.5 * sin(3*t) + 16.  
