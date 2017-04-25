@@ -1,0 +1,6 @@
+The Triple Tornado Beam is a weapon for combat and asteroid destruction.  Its massive spread and fast fire rate allow it to clear out
+waves of enemies and rocks.  The equations for the beam are ship_x + t * 2 + 16 and ship_y + t * 2 * sin(2*t) + 16.  In both equations,
+t * 2 makes the period and amplitude of the wave increase significantly over time, creating the large spread and rapid burst fire. 
+created.  The ship_x and ship_y variables, as well as the + 16s in each equation determine where on the ship the beam is fired from.  
+The sin(2*t) of the vertical equation makes the beam fire faster, causing the illusion of 3 separate beams being fired at once.
+The beam also has a spiral shape, earning it the name "Triple Tornado Beam".
