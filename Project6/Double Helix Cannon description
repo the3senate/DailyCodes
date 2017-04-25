@@ -1,2 +1,5 @@
-In the image titled "Double Helix Cannon", the weapon in question is the read beam.  Its purpose is to fire on a single target for
-destruction or disruption.  The beam's equations are ship_x + t * 5 + 16 and ship_y + t * 0.5 * sin(3*t) + 16.  
+In the image titled "Double Helix Cannon", the weapon in question is the read beam.  Its purpose is to fire on a single target for 
+destruction or disruption.  The beam's equations are ship_x + t * 5 + 16 and ship_y + t * 0.5 * sin(3*t) + 16.  In both equations,
+t represents the passage of time, and as such, causes the beam to spread over time and fire very fast forward.  The + 16s and the ship_
+positions represent where the laser starts, or its vertical and horizontal shift.  The sine allows the beam to fire more often, creating
+what appears to be a double helix shape when it should be a single laser.
